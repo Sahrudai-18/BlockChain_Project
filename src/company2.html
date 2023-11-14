@@ -1,0 +1,54 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="institutioncss.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <div id="institution-profile">
+        <form id="profile-form">
+		<label for="employer name">Employer Name</label>
+            <input type="text" id="name" required>
+            
+	       <label for="Email Address ">Email Address</label>
+            <input type="Email" id="email" required>
+            
+            <label for="contact">Contact Information:</label>
+            <input type="text" id="contact" required>
+            
+            <button type="button" id="edit-button">Edit Profile</button>
+            <button type="submit" id="save-button" style="display: none;">Save Profile</button>
+        </form>
+    </div>
+    <div class="navigation">
+<ul>
+    <li>
+		<a href='company.html'>
+		<span class="icon" ><i class="fa fa-university" aria-hidden="true"></i></span>
+		<span class="title">Home</span>
+		</a>
+	</li>
+	<li>
+		<a href='company1.html'>
+		<span class="icon" ><i class="fas fa-certificate" aria-hidden="true"></i></span>
+		<span class="title">Verify Certificates</span>
+		</a>
+	</li>
+	<li>
+		<a href='company2.html'>
+		<span class="icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+		<span class="title">Employer Profile</span>
+		</a>
+	</li>
+	<li>
+</ul>
+</div>
+	<div class="toggle" onclick="showDashboard()">
+</div>
+<script src="index.js"></script>
+</body>
+<html>

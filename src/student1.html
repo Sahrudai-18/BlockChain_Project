@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>Institution Issuing Certificate Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="institutioncss.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+</head>
+<body>
+<div id="validate-certificates">
+<span style="font-weight:bold;"> Verify Certificate </span>
+<br>
+    <form id="validation-form">
+	    <label for="certificateid">Certificate-ID</label>
+        <input type="text" id="certificateid" required>
+        <label for="studentid">Student ID</label>
+        <input type="text" id="studentid" required>
+        <button type="submit" id="verify">Verify Certificate</button>
+    </form>
+</div>
+<div class="navigation">
+<ul>
+    <li>
+		<a href='student.html'>
+		<span class="icon" ><i class="fa fa-university" aria-hidden="true"></i></span>
+		<span class="title">Home</span>
+		</a>
+	</li>
+	<li>
+		<a href='student1.html'>
+		<span class="icon" ><i class="fas fa-certificate" aria-hidden="true"></i></span>
+		<span class="title">Verify Certificates</span>
+		</a>
+	</li>
+	<li>
+		<a href='student2.html'>
+		<span class="icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+		<span class="title">Student Profile</span>
+		</a>
+	</li>
+	<li>
+</ul>
+</div>
+<div class="toggle" onclick="showDashboard()">
+</div>
+<script src="block.js"></script>
+</body>
+</html>
